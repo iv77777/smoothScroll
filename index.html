@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>smoothScroll</title>
+  </head>
+  <body>
+    <main>
+      <section id="first">
+        <nav>
+          <ul>
+            <li><a class="smooth-scroll" href="#first">First</a></li>
+            <li><a class="smooth-scroll" href="#second">Second</a></li>
+            <li><a class="smooth-scroll" href="#third">Third</a></li>
+            <li><a class="smooth-scroll" href="#fourth">Fourth</a></li>
+          </ul>
+        </nav>
+        section-first
+      </section>
+      <section id="second">section-second</section>
+      <section id="third">section-third</section>
+      <section id="fourth">section-fourth</section>
+
+      <div class="arrow">
+        <a class="smooth-scroll" href="#first">&lt;</a>
+      </div>
+    </main>
+    <!-- подключаем полифил для кросбраузерного скролла (подключаем выше основного скрипта) -->
+    <script src="./smoothscroll.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
